@@ -1,6 +1,7 @@
-import React from 'react'
+import { searchManufacturerProps } from '@/types'
 
-const SearchManufacturer = () => {
+
+const SearchManufacturer = ({ manufacturer, setManufacturer}: searchManufacturerProps) => {
   return (
     <div>
       
